@@ -160,8 +160,5 @@ app.get("/styles.css", (req, res) => {
   res.send(css);
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on port http://localhost:${PORT}`);
-});
 
 module.exports = app;
