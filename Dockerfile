@@ -7,6 +7,9 @@ RUN npm install
 
 COPY app/ .
 
+COPY Dockerfile .
+COPY jenkinsfile .
+
 EXPOSE 3000
 
 CMD ["npm", "run", "start"]
